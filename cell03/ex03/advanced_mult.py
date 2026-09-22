@@ -4,10 +4,10 @@ if len(sys.argv) > 1 :
 else :
     i = 0
     while i <= 10 :
-        print(f"Table de {i}:", end="")
+        print(f"Table de {i}:", end=" ")
         j = 0
         while j <= 10 :
-            print(f"{i*j}", end="")
+            print(f"{i*j}", end=" ")
             j += 1  # j = j + 1
         print()     #ขึ้นบรรทัดใหม่
         i += 1      # i = i + 1
