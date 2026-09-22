@@ -1,3 +1,5 @@
 say = input("What you gotta say? : ").strip()
-while say != "STOP" :
+while True :
     say = input("I got that! Anything else? : ").strip()
+    if say == "STOP" :
+        break
